@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Contact Us</title>
+  <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+<link href="css/normalize.css" rel="stylesheet">
+
+<link href='http://fonts.googleapis.com/css?family=Rum+Raisin' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Strait' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Merriweather+Sans' rel='stylesheet' type='text/css'>
+<link href="css/finalCSS.css" rel="stylesheet">
+<link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
+  <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+  <script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css" />
+ <script>
+
+    function initialize() {
+        var myLocation = new google.maps.LatLng(41.903145, -87.633009);
+
+        var mapOptions = {
+            center: myLocation,
+            zoom: 17,
+            mapTypeId: google.maps.MapTypeId.SATELLITE,
+            mapTypeControl: true,
+            mapTypeControlOptions: {
+                style: google.maps.MapTypeControlStyle.DROPDOWN_MENU,
+                position: google.maps.ControlPosition.TOP_RIGHT
+            },
+            streetViewControl: true
+        };
+
+        var map = new google.maps.Map(document.getElementById('myMap'), mapOptions);
+
+        var image = 'pics/sf.jpg';
+
+        var marker = new google.maps.Marker({
+            position: myLocation,
+            map: map,
+            title: "Shoe Fetish",
+            animation: google.maps.Animation.DROP,
+            icon: image
+        });
+
+        var windowContent = '<div id="shoeFetish-info"><h1>Shoe Fetish: </h1><p>1120 N Lasalle Street<br>Chicago, IL 60610<br>Phone: 770.625.6116</p></div>';
+
+        var infowindow = new google.maps.InfoWindow({
+            content: windowContent
+        });
+
+        google.maps.event.addListener(marker, 'click', function(){
+            infowindow.open(map, marker);
+        })
+
+    }
+
+    google.maps.event.addDomListener(window, 'load', initialize);
+    
+    </script>
+	
+	
+  <script>
+  $(function() {
+    $("#datepicker").datepicker({ showAnim: "clip", changeMonth: true,changeYear: true});
+   // getter
+	var showAnim = $("#datepicker").datepicker( "option", "showAnim");
+ 
+ 
+	// setter
+	$("#datepicker").datepicker( "option", "showAnim", "clip");
+  });
+  
+   </script>
+   <script>
+  function validate()
+{
+ 
+   if( document.myForm.first_name.value == "" )
+   {
+     alert( "Please provide your first name!" );
+     document.myForm.first_name.focus() ;
+     return false;
+   }
+   if( document.myForm.last_name.value == "" )
+   {
+     alert( "Please provide your last name!" );
+     document.myForm.last_name.focus() ;
+     return false;
+   }
+   if( document.myForm.dob.value == "" )
+   {
+     alert( "Please provide your dateof birth!" );
+     document.myForm.dob.focus() ;
+     return false;
+   }
+   if( document.myForm.phone.value == "" ||
+	isNaN( document.myForm.phone.value ) ||
+	document.myForm.phone.value.length != 10)
+   {
+     alert( "Please provide valid phone number=##########!" );
+     document.myForm.phone.focus() ;
+     return false;
+   }
+   
+   if( document.myForm.email.value == "" )
+   {
+     alert( "Please provide your Email!" );
+     document.myForm.email.focus() ;
+     return false;
+   }
+   if( document.myForm.address.value == "" )
+   {
+     alert( "Please provide your address!" );
+     document.myForm.address.focus() ;
+     return false;
+   }
+   if( document.myForm.city.value == "" )
+   {
+     alert( "Please provide your city!" );
+     document.myForm.city.focus() ;
+     return false;
+   }
+   if( document.myForm.state.value == "" )
+   {
+     alert( "Please provide your State!" );
+     return false;
+   }
+   if( document.myForm.zip.value == "" ||
+           isNaN( document.myForm.zip.value ) ||
+           document.myForm.zip.value.length != 5 )
+   {
+     alert( "Please provide a zip in the format #####." );
+     document.myForm.zip.focus() ;
+     return false;
+   }
+      if( document.myForm.message.value == "" )
+   {
+     alert( "Please provide write your Feedback!" );
+     return false;
+   }
+   else
+   {
+   alert("Feedback Submitted Successfully!Thank You!");
+   return( true );
+   }
+}
+
+  </script>
+
+
+	
+</head>
+
+
+<body>
+<div id="container">
+	<header id="main-header">
+	<img id="my-logo" src="pics/shoefetish.jpg" alt="" >
+	<a title="Shoe Fetish" id="my-logo-2" href="index.html"></a>
+	<!--span id="my-name"><a href="index.html">Shoe Fetish</a></span-->
+	
+	</header>
+	
+	<nav id="main-nav">
+		
+	</nav>
+	
+		<div id="main-content-wrapper">	
+			
+		<div id="main-content-left">
+		
+			<nav id="left-nav">
+				<ul id="left-nav-ul">
+					<li><a href="index.html">Home</a></li>
+					<li><a href="interior.html">Collections</a></li>
+					<li><a href="contact_us.html">ContactUs</a></li>
+				</ul>
+				<div class="clear-float"></div>
+			</nav>
+		</div>
+		
+		
+		<div id="main-content">
+			
+		<div id="myMap"></div>
+		
+		</div>
+		
+		
+		<div id="main-content-right">
+		<h4>Please share your feedback-</h4>
+			<form name="myForm" action="contact_us.html" onsubmit="return(validate());">
+				<fieldset>
+					<legend>Personal Details</legend>
+					<table>
+					<tr><td><label for="firstname">First Name:</label></td>
+					<td><input type="text" name="first_name" id="firstname" autofocus></td></tr>
+					<tr><td><label for="lastname">Last Name:</label></td>
+					<td><input onclick="" type="text" name="last_name" id="lastname"></td></tr>
+					<tr><td><label for="datepicker">Date of Birth:</label></td>
+					<td><input type="text" name="dob" id="datepicker"></td></tr>
+					<tr><td><label for="phone">Phone:</label></td>
+					<td><input type="tel" name="phone" id="phone"></td></tr>
+					<tr><td><label for="email">Email:</label></td>
+					<td><input type="email" name="email" id="email"></td></tr>
+					<tr><td><label for="address">Address:</label></td>
+					<td><input type="text" name="address" id="address"></td></tr>
+					<tr><td><label for="city">City:</label></td>
+					<td><input type="text" name="city" id="city"></td></tr>
+					<tr><td><label for="state">State:</label></td>
+					<td><input type="text" name="state" id="state"></td></tr>
+					<tr><td><label for="zip">Zip:</label></td>
+					<td><input type="text" name="zip" id="zip"></td></tr>
+					<tr><td></td><td><textarea name="message" placeholder="Please add your comments here!" rows="3" cols="25"></textarea>
+					</td></tr>
+					<tr>
+					<td><input type="submit" value="Submit"></td>
+					<td><input type="reset" value="Reset"></td>
+					</tr>
+					</table>
+				</fieldset>
+
+				
+
+			</form>
+		
+		</div>
+		</div>
+	
+	
+
+	<footer id="main-footer">
+	
+		<div id="back"><p>Thank You for Shopping !</p></div>
+	
+	</footer>
+	
+
+
+	</div> 
+
+</body>
+</html>

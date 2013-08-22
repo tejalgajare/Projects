@@ -1,0 +1,1 @@
+java -jar dist/MiniProject4.jar > mp4out.txt

@@ -1,0 +1,203 @@
+body {
+background-image:url(../images/circle.png);
+background-repeat:repeat;
+}
+
+#container {
+	width:960px;
+	background-color: white;
+	margin: 0 auto 0 auto;
+	box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 1); 
+}
+
+#main-header {
+	background: #fccccc; /* Old browsers */
+	background: -moz-linear-gradient(top,  #fccccc 0%, #febbbb 9%, #ff5c5c 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#fccccc), color-stop(9%,#febbbb), color-stop(100%,#ff5c5c)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #fccccc 0%,#febbbb 9%,#ff5c5c 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #fccccc 0%,#febbbb 9%,#ff5c5c 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #fccccc 0%,#febbbb 9%,#ff5c5c 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #fccccc 0%,#febbbb 9%,#ff5c5c 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fccccc', endColorstr='#ff5c5c',GradientType=0 ); /* IE6-9 */
+
+	height: 150px;
+	position:relative;
+	
+}
+
+#my-logo {
+	position: absolute;
+	top: 15px;
+	right: 40px;
+	width: 120px;
+	height : 120px;
+}
+
+#my-logo-2 {
+	display: block;
+	width: 120px;
+	height: 120px;
+	position: absolute;
+	top: 15px;
+	right: 40px;
+	text-indent: -9999px;
+}
+
+#my-name {
+	position: absolute;
+	top: 70px;
+	right: 200px;
+	font-family:Rum Raisin, sans-serif;
+	font-size: 40px;
+}
+
+#my-name a {
+	text-decoration: none;
+	/*text-transform :uppercase;*/
+	color: white;
+	text-shadow: 2px 2px 1px #000000;
+	
+}
+
+
+
+#main-nav {
+	background-color: #D8BFD8;
+}
+
+ul#main-nav-ul {
+	margin:0;
+	padding: 0;
+	list-style-type: none;
+}
+
+ul#main-nav-ul li {
+	float: left;
+}
+
+ul#main-nav-ul li a {
+	display: block;
+	padding: 10px 50px;
+	border: 2px solid white;
+	background-color: pink;
+	color: black;
+	text-decoration: none;
+	border-radius: 10px;
+	border-radius-bottomright: 50px;
+	border-radius-bottomright: 50px;
+	border-bottom-right-radius: 50px;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size:14px;
+}
+
+ul#main-nav-ul li a:hover {
+	background-color: #f37373;
+	color:black;
+	border: 2px solid black;
+}
+
+
+
+
+#main-content-wrapper {
+	clear:both;
+	height:500px;
+}
+
+
+#main-footer {
+	background: #febbbb; /* Old browsers */
+background: -moz-linear-gradient(top,  #febbbb 0%, #fcd6d6 51%, #ff5c5c 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#febbbb), color-stop(51%,#fcd6d6), color-stop(100%,#ff5c5c)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  #febbbb 0%,#fcd6d6 51%,#ff5c5c 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  #febbbb 0%,#fcd6d6 51%,#ff5c5c 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  #febbbb 0%,#fcd6d6 51%,#ff5c5c 100%); /* IE10+ */
+background: linear-gradient(to bottom,  #febbbb 0%,#fcd6d6 51%,#ff5c5c 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#febbbb', endColorstr='#ff5c5c',GradientType=0 ); /* IE6-9 */
+	clear:left;
+	height: 120px;
+	border: 4px groove #fccccc;
+}
+
+#footer-title{
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size:13px;
+	margin: 15px 0px 0px 15px;
+	padding:3px;
+	text-align:center;
+}
+
+#telephone{
+font-family: 'Merriweather Sans', sans-serif;
+	font-size:13px;	
+	margin-left: 15px;
+	
+	text-align:center;
+}
+
+#email{
+font-family: 'Merriweather Sans', sans-serif;
+	font-size:13px;
+	margin-left: 15px;
+	
+	text-align:center;
+}
+.clear-float{
+	clear:both;
+}
+	
+
+#assign5_th{
+	border-bottom: 1px dashed #FF6347;
+	 padding: 15px;
+	color:#FF6347;
+	background-color:none;
+}
+#assign5_th th{
+
+	 padding: 15px;
+	
+}
+
+#main-content-assignment5{
+	width: auto;
+	float: left;
+	font-family: 'Calibri', sans-serif;
+	font-size:15px;
+	padding: 8px;
+	text-align:center;
+	
+	}
+	
+#main-content-assignment5 table{
+
+	border-top: 1px solid #FF6347;
+	border-radius: 12px;
+	
+}
+
+#main-content-assignment5 td{
+
+	background-color:#FFE5B4;
+	padding: 7px;
+	border-bottom: 1px solid white;
+}
+
+
+#main-content-assignment5 h2:hover{
+
+	text-transform: uppercase;
+	background-color: black;
+	color:#FF6347;
+	
+	
+}
+.assign5_planet_name  {
+	font-weight:bold;
+}
+
+#main-content-assignment5 tr.data:hover td {
+
+background-color:#FF6347;
+font-weight:bold;
+}

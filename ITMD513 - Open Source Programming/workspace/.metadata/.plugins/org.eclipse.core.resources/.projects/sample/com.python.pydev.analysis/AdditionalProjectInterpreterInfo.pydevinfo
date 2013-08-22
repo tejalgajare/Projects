@@ -1,0 +1,17 @@
+-- VERSION_3
+-- START DISKCACHE
+/Users/tejalgajare/Documents/workspace/.metadata/.plugins/org.eclipse.core.resources/.projects/sample/com.python.pydev.analysis/v1_indexcache
+.v1_indexcache
+sample|0|/Users/tejalgajare/Documents/workspace/sample/sample.py
+-- END DISKCACHE
+-- START DICTIONARY
+1
+1=sample
+-- END DICTIONARY
+-- START TREE 1
+1
+lis|1|list1!11@
+-- END TREE
+-- START TREE 2
+0
+-- END TREE

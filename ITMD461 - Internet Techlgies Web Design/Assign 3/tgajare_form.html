@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Big Bowl - Food Order Details</title>
+</head>
+
+<body>
+<h2>BIG BOWL</h2>
+<h3>Please Enter Details</h3>
+
+<form method="post" action="http://libertyville.rice.iit.edu/scripts/process.php">
+<fieldset>
+<legend>Personal Details</legend>
+<label for="firstname">First Name:</label>
+<input type="text" name="first_name" id="firstname" autofocus>
+<label for="lastname">Last Name:</label>
+<input type="text" name="last_name" id="lastname">
+<label for="phone">Phone:</label>
+<input type="tel" name="phone" id="phone">
+<label for="email">Email:</label>
+<input type="email" name="email" id="email">
+</fieldset>
+
+<fieldset>
+<legend>Order Details</legend>
+<h4>1.Pad Thai - 8$</h4>
+<p>Thin rice noodles stir-fried with chicken or shrimp, bean sprouts, egg, green onions and ground peanut.</p>
+<fieldset>
+<legend>Choose a Protein-Required</legend>
+<ul>
+<li><label><input type="radio" name="radio" value="Chicken" checked>Chicken</label></li>
+<li><label><input type="radio" name="radio" value="Tofu">Tofu</label></li>
+<li><label><input type="radio" name="radio" value="Shrimp">Shrimp</label></li>
+<li><label><input type="radio" name="radio" value="No Meat">No Meat</label></li>
+</ul>
+</fieldset>
+
+<fieldset>
+<legend>Extras-Optional</legend>
+<ul>
+<li><label><input type="checkbox" name="checkbox[]" value="Egg">Extra Egg</label></li>
+<li><label><input type="checkbox" name="checkbox[]" value="Veggies">Extra Vegetables</label></li>
+<li><label><input type="checkbox" name="checkbox[]" value="Chicken">Extra Crispy Chicken</label></li>
+<li><label><input type="checkbox" name="checkbox[]" value="Pork">Extra Pork</label></li>
+</ul>
+<textarea name="message" placeholder="Add Special Instructions here - Additional charges may apply." rows="3" cols="100"></textarea>
+</fieldset>
+
+<fieldset>
+<legend>Delivery Method</legend>
+<select name="menu[]">
+<option value="default" selected="selected">Select Method</option>
+<option value="delivery">Delivery</option>
+<option value="pickup">Pick-Up</option>
+</select>
+</fieldset>
+
+</fieldset>
+
+<table>
+<tr>
+<td><input type="submit" value="Checkout"></td>
+<td><input type="reset" value="Reset"></td>
+</tr>
+</table>
+<input type="hidden" name="hidden" value="Order Number is 2327">
+</form>
+
+</body>
+
+</html>

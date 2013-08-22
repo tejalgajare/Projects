@@ -1,0 +1,284 @@
+Please enter choice from the following options: 
+ 
+a - Create an Employee Record.
+b - Retrieve an Employee Record by ID.
+c - Retrieve all Employee Records.
+d - Update an Employee Record by ID.
+e - Delete an Employee Record by ID.
+q - quit the application.
+
+Please enter choice from the following options: 
+ 
+a - Create an Employee Record.
+b - Retrieve an Employee Record by ID.
+c - Retrieve all Employee Records.
+d - Update an Employee Record by ID.
+e - Delete an Employee Record by ID.
+q - quit the application.
+
+Creating an Employee Record...
+Enter the Employee ID for the new record : 
+Enter the Employee's Last Name : 
+Enter the Employee's First Name : 
+Enter the Employee's Extension : 
+Enter the Employee's Email : 
+Enter the Employee's Office Code : 
+Enter the Employee's Report's To Number : 
+Enter the Employee's Job Title : 
+New record added successfully!
+Please enter choice from the following options: 
+ 
+a - Create an Employee Record.
+b - Retrieve an Employee Record by ID.
+c - Retrieve all Employee Records.
+d - Update an Employee Record by ID.
+e - Delete an Employee Record by ID.
+q - quit the application.
+
+Please enter choice from the following options: 
+ 
+a - Create an Employee Record.
+b - Retrieve an Employee Record by ID.
+c - Retrieve all Employee Records.
+d - Update an Employee Record by ID.
+e - Delete an Employee Record by ID.
+q - quit the application.
+
+Retrieving an Employee Record by ID...
+Enter the Employee ID for the record to be retrieved: 
+ 	 	 EMPID 	 	 LastName 	 FirstName 	 	 Extension 	 	 Email 	 	 	  OfficeCode 	 	  ReportsTo 	  JobTitle 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+EmployeeRecord: Emp_ID=234, lastName=Gajare, firstName=Tejal, extension=tejal7, email=tej@gmail.com, OfficeCode=7tej, reportsTo=0, jobTitle=VP
+Record retrieved successfully!
+Please enter choice from the following options: 
+ 
+a - Create an Employee Record.
+b - Retrieve an Employee Record by ID.
+c - Retrieve all Employee Records.
+d - Update an Employee Record by ID.
+e - Delete an Employee Record by ID.
+q - quit the application.
+
+Please enter choice from the following options: 
+ 
+a - Create an Employee Record.
+b - Retrieve an Employee Record by ID.
+c - Retrieve all Employee Records.
+d - Update an Employee Record by ID.
+e - Delete an Employee Record by ID.
+q - quit the application.
+
+Retrieving all Employee Records...
+ 	 	 EMPID 	 	 LastName 	 FirstName 	 	 Extension 	 	 Email 	 	 	  OfficeCode 	 	  ReportsTo 	  JobTitle 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+EmployeeRecord: Emp_ID=123, lastName=Gajare, firstName=Tejal, extension=tej5, email=tej@gmail.com, OfficeCode=6tej, reportsTo=0, jobTitle=VP
+
+EmployeeRecord: Emp_ID=234, lastName=Gajare, firstName=Tejal, extension=tejal7, email=tej@gmail.com, OfficeCode=7tej, reportsTo=0, jobTitle=VP
+
+EmployeeRecord: Emp_ID=1002, lastName="Murphy", firstName="Diane", extension="x5800", email="dmurphy@classicmodelcars.com", OfficeCode="1", reportsTo=0, jobTitle="President"
+
+EmployeeRecord: Emp_ID=1056, lastName="Patterson", firstName="Mary", extension="x4611", email="mpatterso@classicmodelcars.com", OfficeCode="1", reportsTo=1002, jobTitle="VP Sales"
+
+EmployeeRecord: Emp_ID=1076, lastName="Firrelli", firstName="Jeff", extension="x9273", email="jfirrelli@classicmodelcars.com", OfficeCode="1", reportsTo=1002, jobTitle="VP Marketing"
+
+EmployeeRecord: Emp_ID=1088, lastName="Patterson", firstName="William", extension="x4871", email="wpatterson@classicmodelcars.com", OfficeCode="6", reportsTo=1056, jobTitle="Sales Manager (JAPAN, APAC)"
+
+EmployeeRecord: Emp_ID=1102, lastName="Bondur", firstName="Gerard", extension="x5408", email="athompson@classicmodelcars.com", OfficeCode="4", reportsTo=1056, jobTitle="Sale Manager (EMEA)"
+
+EmployeeRecord: Emp_ID=1143, lastName="Bow", firstName="Anthony", extension="x5428", email="bhoward@classicmodelcars.com", OfficeCode="1", reportsTo=1056, jobTitle="Sales Manager (NA)"
+
+EmployeeRecord: Emp_ID=1165, lastName="Jennings", firstName="Leslie", extension="x3291", email="ljennings@classicmodelcars.com", OfficeCode="1", reportsTo=1143, jobTitle="Sales Rep"
+
+EmployeeRecord: Emp_ID=1166, lastName="Thompson", firstName="Leslie", extension="x4065", email="lthompson@classicmodelcars.com", OfficeCode="1", reportsTo=1143, jobTitle="Sales Rep"
+
+EmployeeRecord: Emp_ID=1188, lastName="Firrelli", firstName="Julie", extension="x2173", email="jfirrelli@classicmodelcars.com", OfficeCode="2", reportsTo=1143, jobTitle="Sales Rep"
+
+EmployeeRecord: Emp_ID=1216, lastName="Patterson", firstName="Steve", extension="x4334", email="spatterso@classicmodelcars.com", OfficeCode="2", reportsTo=1143, jobTitle="Sales Rep"
+
+EmployeeRecord: Emp_ID=1286, lastName="Tseng", firstName="Foon Yue", extension="x2248", email="ftseng@classicmodelcars.com", OfficeCode="3", reportsTo=1143, jobTitle="Sales Rep"
+
+EmployeeRecord: Emp_ID=1323, lastName="Vanauf", firstName="George", extension="x4102", email="gvanauf@classicmodelcars.com", OfficeCode="3", reportsTo=1143, jobTitle="Sales Rep"
+
+EmployeeRecord: Emp_ID=1337, lastName="Bondur", firstName="Loui", extension="x6493", email="lbondur@classicmodelcars.com", OfficeCode="4", reportsTo=1102, jobTitle="Sales Rep"
+
+EmployeeRecord: Emp_ID=1370, lastName="Hernandez", firstName="Gerard", extension="x2028", email="ghernande@classicmodelcars.com", OfficeCode="4", reportsTo=1102, jobTitle="Sales Rep"
+
+EmployeeRecord: Emp_ID=1401, lastName="Castillo", firstName="Pamela", extension="x2759", email="pcastillo@classicmodelcars.com", OfficeCode="4", reportsTo=1102, jobTitle="Sales Rep"
+
+EmployeeRecord: Emp_ID=1501, lastName="Bott", firstName="Larry", extension="x2311", email="lbott@classicmodelcars.com", OfficeCode="7", reportsTo=1102, jobTitle="Sales Rep"
+
+EmployeeRecord: Emp_ID=1504, lastName="Jones", firstName="Barry", extension="x102", email="bjones@classicmodelcars.com", OfficeCode="7", reportsTo=1102, jobTitle="Sales Rep"
+
+EmployeeRecord: Emp_ID=1611, lastName="Fixter", firstName="Andy", extension="x101", email="afixter@classicmodelcars.com", OfficeCode="6", reportsTo=1088, jobTitle="Sales Rep"
+
+EmployeeRecord: Emp_ID=1612, lastName="Marsh", firstName="Peter", extension="x102", email="pmarsh@classicmodelcars.com", OfficeCode="6", reportsTo=1088, jobTitle="Sales Rep"
+
+EmployeeRecord: Emp_ID=1619, lastName="King", firstName="Tom", extension="x103", email="tking@classicmodelcars.com", OfficeCode="6", reportsTo=1088, jobTitle="Sales Rep"
+
+EmployeeRecord: Emp_ID=1621, lastName="Nishi", firstName="Mami", extension="x101", email="mnishi@classicmodelcars.com", OfficeCode="5", reportsTo=1088, jobTitle="Sales Rep"
+
+EmployeeRecord: Emp_ID=1625, lastName="Kato", firstName="Yoshimi", extension="x102", email="ekato@classicmodelcars.com", OfficeCode="5", reportsTo=1088, jobTitle="Sales Rep"
+
+EmployeeRecord: Emp_ID=1702, lastName="Gerard", firstName="Martin", extension="x2312", email="gmartin@classicmodelcars.com", OfficeCode="4", reportsTo=1102, jobTitle="Sales Rep"
+
+Please enter choice from the following options: 
+ 
+a - Create an Employee Record.
+b - Retrieve an Employee Record by ID.
+c - Retrieve all Employee Records.
+d - Update an Employee Record by ID.
+e - Delete an Employee Record by ID.
+q - quit the application.
+
+Please enter choice from the following options: 
+ 
+a - Create an Employee Record.
+b - Retrieve an Employee Record by ID.
+c - Retrieve all Employee Records.
+d - Update an Employee Record by ID.
+e - Delete an Employee Record by ID.
+q - quit the application.
+
+Updating an Employee Record by ID...
+Enter the Employee ID for the record to be updated : 
+Enter new value of the Employee's Last Name : 
+Enter new value of the Employee's First Name : 
+Enter new value of the Employee's Extension : 
+Enter new value of the Employee's Email : 
+Enter new value of the Employee's Office Code : 
+Enter new value of the Employee's Report's To Number : 
+Enter new value of the Employee's Job Title : 
+Record updated successfully!
+Please enter choice from the following options: 
+ 
+a - Create an Employee Record.
+b - Retrieve an Employee Record by ID.
+c - Retrieve all Employee Records.
+d - Update an Employee Record by ID.
+e - Delete an Employee Record by ID.
+q - quit the application.
+
+Please enter choice from the following options: 
+ 
+a - Create an Employee Record.
+b - Retrieve an Employee Record by ID.
+c - Retrieve all Employee Records.
+d - Update an Employee Record by ID.
+e - Delete an Employee Record by ID.
+q - quit the application.
+
+Retrieving an Employee Record by ID...
+Enter the Employee ID for the record to be retrieved: 
+ 	 	 EMPID 	 	 LastName 	 FirstName 	 	 Extension 	 	 Email 	 	 	  OfficeCode 	 	  ReportsTo 	  JobTitle 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+EmployeeRecord: Emp_ID=234, lastName=Ghule, firstName=Tejal, extension=tej7, email=tejg@gmail.com, OfficeCode=7tej, reportsTo=0, jobTitle=VP
+Record retrieved successfully!
+Please enter choice from the following options: 
+ 
+a - Create an Employee Record.
+b - Retrieve an Employee Record by ID.
+c - Retrieve all Employee Records.
+d - Update an Employee Record by ID.
+e - Delete an Employee Record by ID.
+q - quit the application.
+
+Please enter choice from the following options: 
+ 
+a - Create an Employee Record.
+b - Retrieve an Employee Record by ID.
+c - Retrieve all Employee Records.
+d - Update an Employee Record by ID.
+e - Delete an Employee Record by ID.
+q - quit the application.
+
+Deleting an Employee Record by ID...
+Enter the Employee ID for the record to be deleted: 
+Record deleted successfully!
+Please enter choice from the following options: 
+ 
+a - Create an Employee Record.
+b - Retrieve an Employee Record by ID.
+c - Retrieve all Employee Records.
+d - Update an Employee Record by ID.
+e - Delete an Employee Record by ID.
+q - quit the application.
+
+Please enter choice from the following options: 
+ 
+a - Create an Employee Record.
+b - Retrieve an Employee Record by ID.
+c - Retrieve all Employee Records.
+d - Update an Employee Record by ID.
+e - Delete an Employee Record by ID.
+q - quit the application.
+
+Retrieving all Employee Records...
+ 	 	 EMPID 	 	 LastName 	 FirstName 	 	 Extension 	 	 Email 	 	 	  OfficeCode 	 	  ReportsTo 	  JobTitle 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+EmployeeRecord: Emp_ID=123, lastName=Gajare, firstName=Tejal, extension=tej5, email=tej@gmail.com, OfficeCode=6tej, reportsTo=0, jobTitle=VP
+
+EmployeeRecord: Emp_ID=1002, lastName="Murphy", firstName="Diane", extension="x5800", email="dmurphy@classicmodelcars.com", OfficeCode="1", reportsTo=0, jobTitle="President"
+
+EmployeeRecord: Emp_ID=1056, lastName="Patterson", firstName="Mary", extension="x4611", email="mpatterso@classicmodelcars.com", OfficeCode="1", reportsTo=1002, jobTitle="VP Sales"
+
+EmployeeRecord: Emp_ID=1076, lastName="Firrelli", firstName="Jeff", extension="x9273", email="jfirrelli@classicmodelcars.com", OfficeCode="1", reportsTo=1002, jobTitle="VP Marketing"
+
+EmployeeRecord: Emp_ID=1088, lastName="Patterson", firstName="William", extension="x4871", email="wpatterson@classicmodelcars.com", OfficeCode="6", reportsTo=1056, jobTitle="Sales Manager (JAPAN, APAC)"
+
+EmployeeRecord: Emp_ID=1102, lastName="Bondur", firstName="Gerard", extension="x5408", email="athompson@classicmodelcars.com", OfficeCode="4", reportsTo=1056, jobTitle="Sale Manager (EMEA)"
+
+EmployeeRecord: Emp_ID=1143, lastName="Bow", firstName="Anthony", extension="x5428", email="bhoward@classicmodelcars.com", OfficeCode="1", reportsTo=1056, jobTitle="Sales Manager (NA)"
+
+EmployeeRecord: Emp_ID=1165, lastName="Jennings", firstName="Leslie", extension="x3291", email="ljennings@classicmodelcars.com", OfficeCode="1", reportsTo=1143, jobTitle="Sales Rep"
+
+EmployeeRecord: Emp_ID=1166, lastName="Thompson", firstName="Leslie", extension="x4065", email="lthompson@classicmodelcars.com", OfficeCode="1", reportsTo=1143, jobTitle="Sales Rep"
+
+EmployeeRecord: Emp_ID=1188, lastName="Firrelli", firstName="Julie", extension="x2173", email="jfirrelli@classicmodelcars.com", OfficeCode="2", reportsTo=1143, jobTitle="Sales Rep"
+
+EmployeeRecord: Emp_ID=1216, lastName="Patterson", firstName="Steve", extension="x4334", email="spatterso@classicmodelcars.com", OfficeCode="2", reportsTo=1143, jobTitle="Sales Rep"
+
+EmployeeRecord: Emp_ID=1286, lastName="Tseng", firstName="Foon Yue", extension="x2248", email="ftseng@classicmodelcars.com", OfficeCode="3", reportsTo=1143, jobTitle="Sales Rep"
+
+EmployeeRecord: Emp_ID=1323, lastName="Vanauf", firstName="George", extension="x4102", email="gvanauf@classicmodelcars.com", OfficeCode="3", reportsTo=1143, jobTitle="Sales Rep"
+
+EmployeeRecord: Emp_ID=1337, lastName="Bondur", firstName="Loui", extension="x6493", email="lbondur@classicmodelcars.com", OfficeCode="4", reportsTo=1102, jobTitle="Sales Rep"
+
+EmployeeRecord: Emp_ID=1370, lastName="Hernandez", firstName="Gerard", extension="x2028", email="ghernande@classicmodelcars.com", OfficeCode="4", reportsTo=1102, jobTitle="Sales Rep"
+
+EmployeeRecord: Emp_ID=1401, lastName="Castillo", firstName="Pamela", extension="x2759", email="pcastillo@classicmodelcars.com", OfficeCode="4", reportsTo=1102, jobTitle="Sales Rep"
+
+EmployeeRecord: Emp_ID=1501, lastName="Bott", firstName="Larry", extension="x2311", email="lbott@classicmodelcars.com", OfficeCode="7", reportsTo=1102, jobTitle="Sales Rep"
+
+EmployeeRecord: Emp_ID=1504, lastName="Jones", firstName="Barry", extension="x102", email="bjones@classicmodelcars.com", OfficeCode="7", reportsTo=1102, jobTitle="Sales Rep"
+
+EmployeeRecord: Emp_ID=1611, lastName="Fixter", firstName="Andy", extension="x101", email="afixter@classicmodelcars.com", OfficeCode="6", reportsTo=1088, jobTitle="Sales Rep"
+
+EmployeeRecord: Emp_ID=1612, lastName="Marsh", firstName="Peter", extension="x102", email="pmarsh@classicmodelcars.com", OfficeCode="6", reportsTo=1088, jobTitle="Sales Rep"
+
+EmployeeRecord: Emp_ID=1619, lastName="King", firstName="Tom", extension="x103", email="tking@classicmodelcars.com", OfficeCode="6", reportsTo=1088, jobTitle="Sales Rep"
+
+EmployeeRecord: Emp_ID=1621, lastName="Nishi", firstName="Mami", extension="x101", email="mnishi@classicmodelcars.com", OfficeCode="5", reportsTo=1088, jobTitle="Sales Rep"
+
+EmployeeRecord: Emp_ID=1625, lastName="Kato", firstName="Yoshimi", extension="x102", email="ekato@classicmodelcars.com", OfficeCode="5", reportsTo=1088, jobTitle="Sales Rep"
+
+EmployeeRecord: Emp_ID=1702, lastName="Gerard", firstName="Martin", extension="x2312", email="gmartin@classicmodelcars.com", OfficeCode="4", reportsTo=1102, jobTitle="Sales Rep"
+
+Please enter choice from the following options: 
+ 
+a - Create an Employee Record.
+b - Retrieve an Employee Record by ID.
+c - Retrieve all Employee Records.
+d - Update an Employee Record by ID.
+e - Delete an Employee Record by ID.
+q - quit the application.
+
+Please enter choice from the following options: 
+ 
+a - Create an Employee Record.
+b - Retrieve an Employee Record by ID.
+c - Retrieve all Employee Records.
+d - Update an Employee Record by ID.
+e - Delete an Employee Record by ID.
+q - quit the application.
+
+Exiting...

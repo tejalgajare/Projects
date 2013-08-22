@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="windows-1252" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2013-04-28T17:37:46</date>
+  <millis>1367188666362</millis>
+  <sequence>105</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Please enter choice from the following options: 
+ </message>
+</record>
+<record>
+  <date>2013-04-28T17:37:46</date>
+  <millis>1367188666367</millis>
+  <sequence>106</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>a - Create an Employee Record.
+b - Retrieve an Employee Record by ID.
+c - Retrieve all Employee Records.
+d - Update an Employee Record by ID.
+e - Delete an Employee Record by ID.
+q - quit the application.
+</message>
+</record>
+<record>
+  <date>2013-04-28T17:37:51</date>
+  <millis>1367188671627</millis>
+  <sequence>107</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Please enter choice from the following options: 
+ </message>
+</record>
+<record>
+  <date>2013-04-28T17:37:51</date>
+  <millis>1367188671631</millis>
+  <sequence>108</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>a - Create an Employee Record.
+b - Retrieve an Employee Record by ID.
+c - Retrieve all Employee Records.
+d - Update an Employee Record by ID.
+e - Delete an Employee Record by ID.
+q - quit the application.
+</message>
+</record>
+<record>
+  <date>2013-04-28T17:37:51</date>
+  <millis>1367188671638</millis>
+  <sequence>109</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Deleting an Employee Record by ID...</message>
+</record>
+<record>
+  <date>2013-04-28T17:37:51</date>
+  <millis>1367188671671</millis>
+  <sequence>110</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Enter the Employee ID for the record to be deleted: </message>
+</record>
+<record>
+  <date>2013-04-28T17:37:54</date>
+  <millis>1367188674272</millis>
+  <sequence>111</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Record deleted successfully!</message>
+</record>
+<record>
+  <date>2013-04-28T17:37:59</date>
+  <millis>1367188679285</millis>
+  <sequence>112</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Please enter choice from the following options: 
+ </message>
+</record>
+<record>
+  <date>2013-04-28T17:37:59</date>
+  <millis>1367188679290</millis>
+  <sequence>113</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>a - Create an Employee Record.
+b - Retrieve an Employee Record by ID.
+c - Retrieve all Employee Records.
+d - Update an Employee Record by ID.
+e - Delete an Employee Record by ID.
+q - quit the application.
+</message>
+</record>
+<record>
+  <date>2013-04-28T17:38:00</date>
+  <millis>1367188680698</millis>
+  <sequence>114</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Please enter choice from the following options: 
+ </message>
+</record>
+<record>
+  <date>2013-04-28T17:38:00</date>
+  <millis>1367188680704</millis>
+  <sequence>115</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>a - Create an Employee Record.
+b - Retrieve an Employee Record by ID.
+c - Retrieve all Employee Records.
+d - Update an Employee Record by ID.
+e - Delete an Employee Record by ID.
+q - quit the application.
+</message>
+</record>
+<record>
+  <date>2013-04-28T17:38:00</date>
+  <millis>1367188680710</millis>
+  <sequence>116</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Retrieving all Employee Records...</message>
+</record>
+<record>
+  <date>2013-04-28T17:38:00</date>
+  <millis>1367188680752</millis>
+  <sequence>117</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message> 	 	 EMPID 	 	 LastName 	 FirstName 	 	 Extension 	 	 Email 	 	 	  OfficeCode 	 	  ReportsTo 	  JobTitle </message>
+</record>
+<record>
+  <date>2013-04-28T17:38:00</date>
+  <millis>1367188680762</millis>
+  <sequence>118</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------</message>
+</record>
+<record>
+  <date>2013-04-28T17:38:00</date>
+  <millis>1367188680778</millis>
+  <sequence>119</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>EmployeeRecord: Emp_ID=123, lastName=Gajare, firstName=Tejal, extension=tej5, email=tej@gmail.com, OfficeCode=6tej, reportsTo=0, jobTitle=VP</message>
+</record>
+<record>
+  <date>2013-04-28T17:38:00</date>
+  <millis>1367188680780</millis>
+  <sequence>120</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message></message>
+</record>
+<record>
+  <date>2013-04-28T17:38:00</date>
+  <millis>1367188680782</millis>
+  <sequence>121</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>EmployeeRecord: Emp_ID=1002, lastName="Murphy", firstName="Diane", extension="x5800", email="dmurphy@classicmodelcars.com", OfficeCode="1", reportsTo=0, jobTitle="President"</message>
+</record>
+<record>
+  <date>2013-04-28T17:38:00</date>
+  <millis>1367188680784</millis>
+  <sequence>122</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message></message>
+</record>
+<record>
+  <date>2013-04-28T17:38:00</date>
+  <millis>1367188680785</millis>
+  <sequence>123</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>EmployeeRecord: Emp_ID=1056, lastName="Patterson", firstName="Mary", extension="x4611", email="mpatterso@classicmodelcars.com", OfficeCode="1", reportsTo=1002, jobTitle="VP Sales"</message>
+</record>
+<record>
+  <date>2013-04-28T17:38:00</date>
+  <millis>1367188680787</millis>
+  <sequence>124</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message></message>
+</record>
+<record>
+  <date>2013-04-28T17:38:00</date>
+  <millis>1367188680789</millis>
+  <sequence>125</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>EmployeeRecord: Emp_ID=1076, lastName="Firrelli", firstName="Jeff", extension="x9273", email="jfirrelli@classicmodelcars.com", OfficeCode="1", reportsTo=1002, jobTitle="VP Marketing"</message>
+</record>
+<record>
+  <date>2013-04-28T17:38:00</date>
+  <millis>1367188680791</millis>
+  <sequence>126</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message></message>
+</record>
+<record>
+  <date>2013-04-28T17:38:00</date>
+  <millis>1367188680793</millis>
+  <sequence>127</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>EmployeeRecord: Emp_ID=1088, lastName="Patterson", firstName="William", extension="x4871", email="wpatterson@classicmodelcars.com", OfficeCode="6", reportsTo=1056, jobTitle="Sales Manager (JAPAN, APAC)"</message>
+</record>
+<record>
+  <date>2013-04-28T17:38:00</date>
+  <millis>1367188680796</millis>
+  <sequence>128</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message></message>
+</record>
+<record>
+  <date>2013-04-28T17:38:00</date>
+  <millis>1367188680798</millis>
+  <sequence>129</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>EmployeeRecord: Emp_ID=1102, lastName="Bondur", firstName="Gerard", extension="x5408", email="athompson@classicmodelcars.com", OfficeCode="4", reportsTo=1056, jobTitle="Sale Manager (EMEA)"</message>
+</record>
+<record>
+  <date>2013-04-28T17:38:00</date>
+  <millis>1367188680800</millis>
+  <sequence>130</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message></message>
+</record>
+<record>
+  <date>2013-04-28T17:38:00</date>
+  <millis>1367188680802</millis>
+  <sequence>131</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>EmployeeRecord: Emp_ID=1143, lastName="Bow", firstName="Anthony", extension="x5428", email="bhoward@classicmodelcars.com", OfficeCode="1", reportsTo=1056, jobTitle="Sales Manager (NA)"</message>
+</record>
+<record>
+  <date>2013-04-28T17:38:00</date>
+  <millis>1367188680804</millis>
+  <sequence>132</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message></message>
+</record>
+<record>
+  <date>2013-04-28T17:38:00</date>
+  <millis>1367188680806</millis>
+  <sequence>133</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>EmployeeRecord: Emp_ID=1165, lastName="Jennings", firstName="Leslie", extension="x3291", email="ljennings@classicmodelcars.com", OfficeCode="1", reportsTo=1143, jobTitle="Sales Rep"</message>
+</record>
+<record>
+  <date>2013-04-28T17:38:00</date>
+  <millis>1367188680807</millis>
+  <sequence>134</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message></message>
+</record>
+<record>
+  <date>2013-04-28T17:38:00</date>
+  <millis>1367188680809</millis>
+  <sequence>135</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>EmployeeRecord: Emp_ID=1166, lastName="Thompson", firstName="Leslie", extension="x4065", email="lthompson@classicmodelcars.com", OfficeCode="1", reportsTo=1143, jobTitle="Sales Rep"</message>
+</record>
+<record>
+  <date>2013-04-28T17:38:00</date>
+  <millis>1367188680811</millis>
+  <sequence>136</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message></message>
+</record>
+<record>
+  <date>2013-04-28T17:38:00</date>
+  <millis>1367188680815</millis>
+  <sequence>137</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>EmployeeRecord: Emp_ID=1188, lastName="Firrelli", firstName="Julie", extension="x2173", email="jfirrelli@classicmodelcars.com", OfficeCode="2", reportsTo=1143, jobTitle="Sales Rep"</message>
+</record>
+<record>
+  <date>2013-04-28T17:38:00</date>
+  <millis>1367188680820</millis>
+  <sequence>138</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message></message>
+</record>
+<record>
+  <date>2013-04-28T17:38:00</date>
+  <millis>1367188680822</millis>
+  <sequence>139</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>EmployeeRecord: Emp_ID=1216, lastName="Patterson", firstName="Steve", extension="x4334", email="spatterso@classicmodelcars.com", OfficeCode="2", reportsTo=1143, jobTitle="Sales Rep"</message>
+</record>
+<record>
+  <date>2013-04-28T17:38:00</date>
+  <millis>1367188680824</millis>
+  <sequence>140</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message></message>
+</record>
+<record>
+  <date>2013-04-28T17:38:00</date>
+  <millis>1367188680825</millis>
+  <sequence>141</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>EmployeeRecord: Emp_ID=1286, lastName="Tseng", firstName="Foon Yue", extension="x2248", email="ftseng@classicmodelcars.com", OfficeCode="3", reportsTo=1143, jobTitle="Sales Rep"</message>
+</record>
+<record>
+  <date>2013-04-28T17:38:00</date>
+  <millis>1367188680828</millis>
+  <sequence>142</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message></message>
+</record>
+<record>
+  <date>2013-04-28T17:38:00</date>
+  <millis>1367188680830</millis>
+  <sequence>143</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>EmployeeRecord: Emp_ID=1323, lastName="Vanauf", firstName="George", extension="x4102", email="gvanauf@classicmodelcars.com", OfficeCode="3", reportsTo=1143, jobTitle="Sales Rep"</message>
+</record>
+<record>
+  <date>2013-04-28T17:38:00</date>
+  <millis>1367188680835</millis>
+  <sequence>144</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message></message>
+</record>
+<record>
+  <date>2013-04-28T17:38:00</date>
+  <millis>1367188680837</millis>
+  <sequence>145</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>EmployeeRecord: Emp_ID=1337, lastName="Bondur", firstName="Loui", extension="x6493", email="lbondur@classicmodelcars.com", OfficeCode="4", reportsTo=1102, jobTitle="Sales Rep"</message>
+</record>
+<record>
+  <date>2013-04-28T17:38:00</date>
+  <millis>1367188680839</millis>
+  <sequence>146</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message></message>
+</record>
+<record>
+  <date>2013-04-28T17:38:00</date>
+  <millis>1367188680841</millis>
+  <sequence>147</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>EmployeeRecord: Emp_ID=1370, lastName="Hernandez", firstName="Gerard", extension="x2028", email="ghernande@classicmodelcars.com", OfficeCode="4", reportsTo=1102, jobTitle="Sales Rep"</message>
+</record>
+<record>
+  <date>2013-04-28T17:38:00</date>
+  <millis>1367188680842</millis>
+  <sequence>148</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message></message>
+</record>
+<record>
+  <date>2013-04-28T17:38:00</date>
+  <millis>1367188680844</millis>
+  <sequence>149</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>EmployeeRecord: Emp_ID=1401, lastName="Castillo", firstName="Pamela", extension="x2759", email="pcastillo@classicmodelcars.com", OfficeCode="4", reportsTo=1102, jobTitle="Sales Rep"</message>
+</record>
+<record>
+  <date>2013-04-28T17:38:00</date>
+  <millis>1367188680848</millis>
+  <sequence>150</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message></message>
+</record>
+<record>
+  <date>2013-04-28T17:38:00</date>
+  <millis>1367188680852</millis>
+  <sequence>151</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>EmployeeRecord: Emp_ID=1501, lastName="Bott", firstName="Larry", extension="x2311", email="lbott@classicmodelcars.com", OfficeCode="7", reportsTo=1102, jobTitle="Sales Rep"</message>
+</record>
+<record>
+  <date>2013-04-28T17:38:01</date>
+  <millis>1367188681079</millis>
+  <sequence>152</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message></message>
+</record>
+<record>
+  <date>2013-04-28T17:38:01</date>
+  <millis>1367188681083</millis>
+  <sequence>153</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>EmployeeRecord: Emp_ID=1504, lastName="Jones", firstName="Barry", extension="x102", email="bjones@classicmodelcars.com", OfficeCode="7", reportsTo=1102, jobTitle="Sales Rep"</message>
+</record>
+<record>
+  <date>2013-04-28T17:38:01</date>
+  <millis>1367188681087</millis>
+  <sequence>154</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message></message>
+</record>
+<record>
+  <date>2013-04-28T17:38:01</date>
+  <millis>1367188681091</millis>
+  <sequence>155</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>EmployeeRecord: Emp_ID=1611, lastName="Fixter", firstName="Andy", extension="x101", email="afixter@classicmodelcars.com", OfficeCode="6", reportsTo=1088, jobTitle="Sales Rep"</message>
+</record>
+<record>
+  <date>2013-04-28T17:38:01</date>
+  <millis>1367188681095</millis>
+  <sequence>156</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message></message>
+</record>
+<record>
+  <date>2013-04-28T17:38:01</date>
+  <millis>1367188681099</millis>
+  <sequence>157</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>EmployeeRecord: Emp_ID=1612, lastName="Marsh", firstName="Peter", extension="x102", email="pmarsh@classicmodelcars.com", OfficeCode="6", reportsTo=1088, jobTitle="Sales Rep"</message>
+</record>
+<record>
+  <date>2013-04-28T17:38:01</date>
+  <millis>1367188681103</millis>
+  <sequence>158</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message></message>
+</record>
+<record>
+  <date>2013-04-28T17:38:01</date>
+  <millis>1367188681107</millis>
+  <sequence>159</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>EmployeeRecord: Emp_ID=1619, lastName="King", firstName="Tom", extension="x103", email="tking@classicmodelcars.com", OfficeCode="6", reportsTo=1088, jobTitle="Sales Rep"</message>
+</record>
+<record>
+  <date>2013-04-28T17:38:01</date>
+  <millis>1367188681111</millis>
+  <sequence>160</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message></message>
+</record>
+<record>
+  <date>2013-04-28T17:38:01</date>
+  <millis>1367188681114</millis>
+  <sequence>161</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>EmployeeRecord: Emp_ID=1621, lastName="Nishi", firstName="Mami", extension="x101", email="mnishi@classicmodelcars.com", OfficeCode="5", reportsTo=1088, jobTitle="Sales Rep"</message>
+</record>
+<record>
+  <date>2013-04-28T17:38:01</date>
+  <millis>1367188681119</millis>
+  <sequence>162</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message></message>
+</record>
+<record>
+  <date>2013-04-28T17:38:01</date>
+  <millis>1367188681123</millis>
+  <sequence>163</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>EmployeeRecord: Emp_ID=1625, lastName="Kato", firstName="Yoshimi", extension="x102", email="ekato@classicmodelcars.com", OfficeCode="5", reportsTo=1088, jobTitle="Sales Rep"</message>
+</record>
+<record>
+  <date>2013-04-28T17:38:01</date>
+  <millis>1367188681127</millis>
+  <sequence>164</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message></message>
+</record>
+<record>
+  <date>2013-04-28T17:38:01</date>
+  <millis>1367188681131</millis>
+  <sequence>165</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>EmployeeRecord: Emp_ID=1702, lastName="Gerard", firstName="Martin", extension="x2312", email="gmartin@classicmodelcars.com", OfficeCode="4", reportsTo=1102, jobTitle="Sales Rep"</message>
+</record>
+<record>
+  <date>2013-04-28T17:38:01</date>
+  <millis>1367188681135</millis>
+  <sequence>166</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message></message>
+</record>
+<record>
+  <date>2013-04-28T17:38:06</date>
+  <millis>1367188686149</millis>
+  <sequence>167</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Please enter choice from the following options: 
+ </message>
+</record>
+<record>
+  <date>2013-04-28T17:38:06</date>
+  <millis>1367188686155</millis>
+  <sequence>168</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>a - Create an Employee Record.
+b - Retrieve an Employee Record by ID.
+c - Retrieve all Employee Records.
+d - Update an Employee Record by ID.
+e - Delete an Employee Record by ID.
+q - quit the application.
+</message>
+</record>
+<record>
+  <date>2013-04-28T17:38:12</date>
+  <millis>1367188692007</millis>
+  <sequence>169</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Please enter choice from the following options: 
+ </message>
+</record>
+<record>
+  <date>2013-04-28T17:38:12</date>
+  <millis>1367188692012</millis>
+  <sequence>170</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>a - Create an Employee Record.
+b - Retrieve an Employee Record by ID.
+c - Retrieve all Employee Records.
+d - Update an Employee Record by ID.
+e - Delete an Employee Record by ID.
+q - quit the application.
+</message>
+</record>
+<record>
+  <date>2013-04-28T17:38:12</date>
+  <millis>1367188692016</millis>
+  <sequence>171</sequence>
+  <logger></logger>
+  <level>INFO</level>
+  <class>java.util.logging.LogManager$RootLogger</class>
+  <method>log</method>
+  <thread>1</thread>
+  <message>Exiting...</message>
+</record>
+</log>

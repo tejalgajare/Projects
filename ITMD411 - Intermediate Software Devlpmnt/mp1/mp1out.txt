@@ -1,0 +1,101 @@
+------------------------------------------------------------------------
+MilkyWayPlanet: Name= Mercury
+Facts: 
+Mass= 3.2999999999999996E23kg,
+Diameter= 4870000.0m,
+Revolution Period= 7603200.0sec,
+Mean Surface Temperature= 800.0F
+Escape Velocity= 4251.923106391907m/s
+------------------------------------------------------------------------
+MilkyWayPlanet: Name= Venus
+Facts: 
+Mass= 4976.64kg,
+Diameter= 1.21E7m,
+Revolution Period= 1.944E7sec,
+Mean Surface Temperature= 780.0F
+Escape Velocity= 3.3125949878786886E-7m/s
+------------------------------------------------------------------------
+MilkyWayPlanet: Name= Earth
+Facts: 
+Mass= 6113.28kg,
+Diameter= 1.275E7m,
+Revolution Period= 3.1536E7sec,
+Mean Surface Temperature= 59.0F
+Escape Velocity= 3.576637816523814E-7m/s
+------------------------------------------------------------------------
+MilkyWayPlanet: Name= Mars
+Facts: 
+Mass= 5.2E25kg,
+Diameter= 6790000.0m,
+Revolution Period= 5.93568E7sec,
+Mean Surface Temperature= -81.0F
+Escape Velocity= 45202.212986867824m/s
+------------------------------------------------------------------------
+MilkyWayPlanet: Name= Jupiter
+Facts: 
+Mass= 1.89E27kg,
+Diameter= 1.42E8m,
+Revolution Period= 1024704.0sec,
+Mean Surface Temperature= 680.0F
+Escape Velocity= 59590.85854839827m/s
+------------------------------------------------------------------------
+MilkyWayPlanet: Name= Saturn
+Facts: 
+Mass= 5.68E26kg,
+Diameter= 1.2E8m,
+Revolution Period= 9.2905056E8sec,
+Mean Surface Temperature= 332.3F
+Escape Velocity= 35536.64775036235m/s
+------------------------------------------------------------------------
+MilkyWayPlanet: Name= Uranus
+Facts: 
+Mass= 8.68E25kg,
+Diameter= 5.11E7m,
+Revolution Period= 2.64933936E9sec,
+Mean Surface Temperature= -67.0F
+Escape Velocity= 21288.365849635928m/s
+------------------------------------------------------------------------
+MilkyWayPlanet: Name= Neptune
+Facts: 
+Mass= 1.0240000000000001E26kg,
+Diameter= 4.95E7m,
+Revolution Period= 14.052059999999999sec,
+Mean Surface Temperature= -373.0F
+Escape Velocity= 23493.098062317295m/s
+------------------------------------------------------------------------
+MilkyWayPlanet: Name= Pluto
+Facts: 
+Mass= 1.3E22kg,
+Diameter= 2360000.0m,
+Revolution Period= 7.82E9sec,
+Mean Surface Temperature= -380.0F
+Escape Velocity= 1212.29576298408m/s
+
+------------------------------------------------------------------------
+
+Jupiter's Diameter is greater than Mercury's Diameter!
+
+------------------------------------------------------------------------
+
+Earth's Mass is smaller than Jupiter's Mass!
+
+------------------------------------------------------------------------
+Additional Test Cases: 
+
+1.To show  call to no args constructor: 
+
+------------------------------------------------------------------------
+MilkyWayPlanet: Name= Not Assigned
+Facts: 
+Mass= 0.0kg,
+Diameter= 0.0m,
+Revolution Period= 0.0sec,
+Mean Surface Temperature= 0.0F
+Escape Velocity= 0.0m/s
+
+2.To show how to access the mutators of the Planet class: 
+
+
+------------------------------------------------------------------------
+
+Jupiter's Mass is smaller than Earth's Mass!

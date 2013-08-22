@@ -1,0 +1,52 @@
+
+Reading data from sunrise-sunset.csv file...
+
+Serialization started...
+
+Waiting 10 seconds...
+
+Deserialization from daylight-record.ser...
+
+Time difference (in milliseconds) between serialization and deserialization = 10089
+
+Creating .csv file...
+
+Write .csv file to output.csv...
+
+Writing all records to daylight-records.txt file...
+
+****************************************************************************************
+
+                           Data Analytics                                      
+
+****************************************************************************************
+Display the Shortest day => winter solstice
+
+Difference between sunset/sunrise of Persistent Object (po2) < Persistent Object (po1)! 
+
+Winter Solstice day is: 12/19/2013.
+
+
+****************************************************************************************
+Display the Longest day => summer solstice
+
+Difference between sunset/sunrise of Persistent Object (po1) > Persistent Object (po2)! 
+
+Summer Solstice day is: 6/23/2013.
+
+
+****************************************************************************************
+Display the Equal day and night => autumnal equinox (Fall)
+
+Autumnal Equinox of Persistent Object (po2) was more accurate than Persistent Object (po1)! 
+
+Autumnal Equinox day is: 9/25/2013.
+
+
+****************************************************************************************
+Display the Equal day and night => vernal equinox (Spring)
+
+Vernal Equinox of Persistent Object (po2) was more accurate than Persistent Object (po1)! 
+
+Vernal Equinox day is: 3/16/2013.
+

@@ -1,0 +1,285 @@
+
+body {
+background-color:none;
+}
+
+#container {
+	width:960px;
+	background-color: white;
+	margin: 0 auto 0 auto;
+	box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 1); 
+	height:auto;
+}
+
+#main-header {
+	height: 150px;
+	position:relative;
+	
+}
+
+#my-logo {
+position: absolute;
+bottom: 0;
+display: block;
+height: 150px;
+width: 240px;
+
+}
+
+#my-logo-2 {
+	display: block;
+	height: 150px;
+	width: 240px;
+	position: absolute;
+	text-indent: -9999px;
+}
+
+#my-name {
+	position: absolute;
+	font-family:Rum Raisin, sans-serif;
+	font-size: 40px;
+}
+
+#my-name a {
+	text-decoration: none;
+	/*text-transform :uppercase;*/
+	color: white;
+	text-shadow: 2px 2px 1px #000000;
+	
+}
+
+
+
+#main-nav {
+	background-color: none;
+	border-bottom: #111 5px solid;
+}
+
+ul#main-nav-ul {
+	border-top: #b8b8b8 1px solid;
+	
+	display: block;
+	padding-top: 3px;
+	list-style-type: none;
+}
+
+ul#main-nav-ul li {
+	float: left;
+}
+
+ul#main-nav-ul li a {
+	display: block;
+	padding: 3px 50px;
+	color: black;
+	text-decoration: none;
+	border-radius: 10px;
+	border-radius-bottomright: 50px;
+	border-radius-bottomright: 50px;
+	border-bottom-right-radius: 50px;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size:14px;
+
+}
+
+ul#main-nav-ul li a:hover {
+	background-color:  #EEE8AA;
+	color:black;
+	border: 2px thin black;
+	font-weight:bold;
+}
+
+
+
+
+#main-content-wrapper {
+	
+	width:960px;
+	background-color: #EEE8AA; 
+	height:auto;
+}
+
+
+#main-content {
+	float:left;
+	
+	top:0;
+	left:120px;
+	margin:0;
+	width: 420px;
+	
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size:13px;
+	
+	
+	background-color:#EEE8AA;
+}
+
+.main-content-image{
+	width:205px;
+	height:205px;
+	margin-top:3px;
+}
+.main-content-image:hover{
+	box-shadow: 0px 4px 6px 1px rgba(0, 0, 0, 1); 
+	
+}
+
+#main-content p{
+text-align:center;
+}
+
+#main-content-right fieldset{
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size:13px;
+}
+
+#main-content-right{
+	
+	top:0;
+	width: 420px;
+	background-color:none;
+	float:left;
+}
+#main-content-right p,h4,li{
+	padding-left:5px;
+	font-size:13px;
+	font-family: 'Merriweather Sans', sans-serif;
+	text-align:justify;
+	padding-right:3px;
+}
+
+
+#main-content-left{
+	float:left;
+	top:0;
+	left:0;
+	margin:0;
+	width: 115px;
+	
+	height:auto;
+}
+
+#main-footer {
+	
+	background-color: none;
+	
+	clear:left;
+	height: 75px;
+	text-align:center;
+	border-top: #b8b8b8 1px solid;
+}
+#main-footer p{
+	text-align:center;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size:14px;
+	margin-top:20px;
+}
+#main-footer p:hover{
+	text-shadow: 2px 2px #b8b8b8;
+}
+ul#main-footer-ul{
+		
+	margin-left:160px;
+	display: block;
+	padding-top: 3px;
+	list-style-type: none;
+}
+
+
+ul#main-footer-ul li {
+	float: left;
+	text-align: center;
+}
+
+ul#main-footer-ul li a {
+	display: block;
+	padding: 3px 50px;
+	color: black;
+	text-decoration: none;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size:14px;
+	
+}
+
+ul#main-footer-ul li a:hover {
+	text-decoration:underline;
+	color:black;
+	border: 2px thin black;
+}
+
+
+
+.clear-float{
+	clear:both;
+}
+	
+
+#slideshow-wrapper {
+		padding-top:30px;
+		width: 400px;
+		height: auto;
+		margin: auto;
+	}
+	
+#left-nav{
+	background-color: none;
+}
+
+
+ul#left-nav-ul {
+		
+	display: block;
+	
+	padding-left:15px;
+	
+	list-style-type: none;
+	
+
+}
+
+ul#left-nav-ul li {
+	float: bottom;
+	padding-top: 30px;
+	padding-right:60px;
+	text-align:center;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size:14px;
+	
+}
+
+ul#left-nav-ul li a {
+	display: block;
+	padding-top: 30px;
+	padding-right:60px;
+	color: black;
+	text-decoration: none;
+	text-align:center;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size:14px;
+	border-bottom: #b8b8b8 1px solid;
+}
+
+ul#left-nav-ul li a:hover {
+	font-weight:bold;
+	color:black;
+	
+}
+
+#back{
+background-color: #EEE8AA; 
+font-weight:bold;
+}
+#myMap {
+			width: 420px;
+			height: 400px;
+			
+			margin: 0 auto;
+		}
+#shoeFetish-info h1 {
+            color: Black;
+        }
+		
+.line{
+		border-top: #b8b8b8 1px solid;	
+		padding: 3px;
+}

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <display-name>ETourism</display-name>
+  
+  <servlet>
+  <servlet-name>ETourism</servlet-name>
+  <servlet-class>group21.ETourism</servlet-class>
+    </servlet>
+   <servlet-mapping>
+   		<servlet-name>ETourism</servlet-name>
+   		<url-pattern>/Welcome</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+  <servlet-name>Guest_Register</servlet-name>
+  <servlet-class>group21.Guest_Register</servlet-class>
+    </servlet>
+   <servlet-mapping>
+   		<servlet-name>Guest_Register</servlet-name>
+   		<url-pattern>/Guest_Login</url-pattern>
+    </servlet-mapping>
+    
+       <servlet>
+  <servlet-name>Guest_is_Registered</servlet-name>
+  <servlet-class>group21.Guest_is_Registered</servlet-class>
+    </servlet>
+   <servlet-mapping>
+   		<servlet-name>Guest_is_Registered</servlet-name>
+   		<url-pattern>/Guest_is_Registered</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+  <servlet-name>Sign_Up</servlet-name>
+  <servlet-class>group21.Sign_Up</servlet-class>
+    </servlet>
+   <servlet-mapping>
+   		<servlet-name>Sign_Up</servlet-name>
+   		<url-pattern>/Sign_Up</url-pattern>
+    </servlet-mapping>
+    
+      <servlet>
+  <servlet-name>Sign_Up_Before_Booking</servlet-name>
+  <servlet-class>group21.Sign_Up_Before_Booking</servlet-class>
+    </servlet>
+   <servlet-mapping>
+   		<servlet-name>Sign_Up_Before_Booking</servlet-name>
+   		<url-pattern>/Sign_Up_Before_Booking</url-pattern>
+    </servlet-mapping>
+    
+          <servlet>
+  <servlet-name>Update_Info</servlet-name>
+  <servlet-class>group21.Update_Info</servlet-class>
+    </servlet>
+   <servlet-mapping>
+   		<servlet-name>Update_Info</servlet-name>
+   		<url-pattern>/Update_Info</url-pattern>
+    </servlet-mapping>
+    
+    
+      <servlet>
+  <servlet-name>Query4</servlet-name>
+  <servlet-class>group21.Query4</servlet-class>
+    </servlet>
+   <servlet-mapping>
+   		<servlet-name>Query4</servlet-name>
+   		<url-pattern>/Query4</url-pattern>
+    </servlet-mapping>
+    
+     <servlet>
+  <servlet-name>Query7</servlet-name>
+  <servlet-class>group21.Query7</servlet-class>
+    </servlet>
+   <servlet-mapping>
+   		<servlet-name>Query7</servlet-name>
+   		<url-pattern>/Query7</url-pattern>
+    </servlet-mapping>
+    
+         <servlet>
+  <servlet-name>Admin_Login</servlet-name>
+  <servlet-class>group21.Admin_Login</servlet-class>
+    </servlet>
+   <servlet-mapping>
+   		<servlet-name>Admin_Login</servlet-name>
+   		<url-pattern>/Admin_Login</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+  <servlet-name>Query6</servlet-name>
+  <servlet-class>group21.Query6</servlet-class>
+    </servlet>
+   <servlet-mapping>
+   		<servlet-name>Query6</servlet-name>
+   		<url-pattern>/Query6</url-pattern>
+    </servlet-mapping>
+    
+      <servlet>
+  <servlet-name>Query5</servlet-name>
+  <servlet-class>group21.Query5</servlet-class>
+    </servlet>
+   <servlet-mapping>
+   		<servlet-name>Query5</servlet-name>
+   		<url-pattern>/Query5</url-pattern>
+    </servlet-mapping>
+    
+    <servlet>
+  <servlet-name>Process6</servlet-name>
+  <servlet-class>group21.Process6</servlet-class>
+    </servlet>
+   <servlet-mapping>
+   		<servlet-name>Process6</servlet-name>
+   		<url-pattern>/Process6</url-pattern>
+    </servlet-mapping>
+    
+       <servlet>
+  <servlet-name>view_customer</servlet-name>
+  <servlet-class>group21.view_customer</servlet-class>
+    </servlet>
+   <servlet-mapping>
+   		<servlet-name>view_customer</servlet-name>
+   		<url-pattern>/view_customer</url-pattern>
+    </servlet-mapping>
+    
+          <servlet>
+  <servlet-name>Admin_Update</servlet-name>
+  <servlet-class>group21.Admin_Update</servlet-class>
+    </servlet>
+   <servlet-mapping>
+   		<servlet-name>Admin_Update</servlet-name>
+   		<url-pattern>/Admin_Update</url-pattern>
+    </servlet-mapping>
+    
+      <servlet>
+  <servlet-name>Query1</servlet-name>
+  <servlet-class>group21.Query1</servlet-class>
+    </servlet>
+   <servlet-mapping>
+   		<servlet-name>Query1</servlet-name>
+   		<url-pattern>/Query1</url-pattern>
+    </servlet-mapping>
+    
+    
+      <servlet>
+  <servlet-name>Query2</servlet-name>
+  <servlet-class>group21.Query2</servlet-class>
+    </servlet>
+   <servlet-mapping>
+   		<servlet-name>Query2</servlet-name>
+   		<url-pattern>/Query2</url-pattern>
+    </servlet-mapping>
+    
+    
+    
+    <servlet>
+  <servlet-name>Director</servlet-name>
+  <servlet-class>group21.Director</servlet-class>
+    </servlet>
+   <servlet-mapping>
+   		<servlet-name>Director</servlet-name>
+   		<url-pattern>/Director</url-pattern>
+    </servlet-mapping>
+    
+    
+</web-app>

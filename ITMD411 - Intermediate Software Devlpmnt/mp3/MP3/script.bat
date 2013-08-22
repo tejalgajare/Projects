@@ -1,0 +1,1 @@
+java -jar dist/MP3.jar > mp3out.txt
