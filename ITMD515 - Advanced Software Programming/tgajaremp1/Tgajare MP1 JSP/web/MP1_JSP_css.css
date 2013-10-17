@@ -1,0 +1,118 @@
+/* 
+    Document   : MP1_JSP_css
+    Created on : Sep 29, 2013, 3:09:05 PM
+    Author     : Tejal
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+    
+}
+body
+{
+background-image:url('extras/worldmap.jpg');
+background-position: top;
+background-repeat: no-repeat;
+background-size:  cover;
+}
+
+h1, h2{
+    
+    text-align: center;
+    
+    font-family: 'Strait';
+    
+}
+
+h5{
+    font-family: 'Strait';
+    
+}
+
+
+ul#menu {
+	margin-left:350px;
+        margin-right: 350px;
+        margin-top: 50px;
+	padding: 0;
+	list-style-type: none;
+        width: 500px;
+}
+
+ul#menu li a {
+	display: block;
+	padding: 10px 50px;
+        border: 1px solid #999999;
+	background-color: transparent;
+	color: black;
+	text-decoration: none;
+	border-radius: 10px;
+	border-radius-bottomright: 50px;
+	border-radius-bottomright: 50px;
+        
+	font-family: 'Strait';
+	font-size:22px;
+        text-align: center;
+        text-transform: capitalize;
+        margin-left: 20px;
+}
+
+ul#menu li a:hover {
+	background-color: lightseagreen;
+	color:black;
+	border: 2px solid black;
+}
+
+#tableRecords_th{
+	border-bottom: 1px dashed #FF6347;
+	 padding: 15px;
+	color:#FF6347;
+	background-color:none;
+}
+
+
+#tableRecords{
+	width: auto;
+	float: left;
+	font-family: 'Calibri', sans-serif;
+	font-size:15px;
+	padding: 8px;
+	text-align:center;
+        
+	}
+
+#tableRecords table{
+
+	border-top: 1px solid #FF6347;
+	
+
+}
+
+#tableRecords td{
+
+	background-color:#FFE5B4;
+	padding: 7px;
+	border-bottom: 1px solid white;
+        font-family:"Strait";
+}
+
+
+#tableRecords a:hover{
+
+	text-transform: uppercase;
+	background-color: black;
+	color:#FF6347;
+
+
+}
+
+
+
+#formtable  {
+    
+    margin-left: 450px;
+   font-family: "Strait";
+   
+}
