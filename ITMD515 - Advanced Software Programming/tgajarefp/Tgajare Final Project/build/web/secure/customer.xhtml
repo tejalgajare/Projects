@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns:ui="http://java.sun.com/jsf/facelets"
+                template="./../layout.xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <ui:define name="title">
+        Welcome, #{customerBean.findByUserName(loginController.remoteUser).firstName} #{customerBean.findByUserName(loginController.remoteUser).lastName}
+    </ui:define>
+
+    <ui:define name="content">
+
+
+        <ui:fragment rendered="#{loginController.customer}">
+
+            <h:form class="form-signin" id="addorder">
+
+                <h:dataTable class="table table-hover" value="#{productBean.findall()}" var="prod" binding="#{manageOrder.datatableProducts1}">
+
+                    <h:column>
+                        <f:facet name="header">Product ID</f:facet>
+                        <h:outputText value="#{prod.id}"/>
+                    </h:column>
+
+                    <h:column>
+                        <f:facet name="header">Product Name</f:facet>
+                        <h:outputText value="#{prod.name}"/>
+                    </h:column>
+
+                    <h:column>
+                        <f:facet name="header">Product Description</f:facet>
+                        <h:outputText value="#{prod.description}"/>       
+                    </h:column>
+
+                    <h:column>
+                        <f:facet name="header">Product Price</f:facet>
+                        <h:outputText value="#{prod.price}"/>
+                    </h:column>
+
+                    <h:column>
+                        <f:facet name="header">Brand ID</f:facet>
+                        <h:outputText value="#{prod.brand.id}"/>
+                    </h:column>
+                    <h:column>
+                        <f:facet name="header">Quantity</f:facet>
+                        <h:form class="form-signin" id="addorder">
+                            <h:panelGrid columns="3">
+                               
+                                <h:outputLabel class="form-control" for="quantity" value="Quantity"/>
+                                <h:inputText class="form-control" id="quantity" value="#{manageOrder.order.quantity}"/> 
+                                <h:message for="quantity" errorStyle="color:red" />
+                            </h:panelGrid> 
+
+
+                        </h:form>
+                    </h:column>
+                    <h:column>
+
+
+                        <f:facet name="header">Action</f:facet>
+                       
+                        <h:inputHidden binding="#{manageOrder.dataItemID}" />
+                        <h:commandButton value="Add to Order" action="#{manageOrder.saveChanges()}" />
+
+                    </h:column>
+
+                </h:dataTable> 
+
+            </h:form>
+        </ui:fragment>
+    </ui:define>
+
+</ui:composition>
+

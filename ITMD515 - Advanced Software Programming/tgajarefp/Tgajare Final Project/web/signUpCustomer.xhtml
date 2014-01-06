@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="description" content=""/>
+        <meta name="author" content=""/>
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.min.css"></link>
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap-theme.min.css"></link>
+
+        <title>Sign-Up C Form</title>
+
+
+
+    </h:head>
+    <h:body>
+        <h:panelGroup layout="block" class="container" style="position:static;margin-left: 450px;">
+            <h:messages errorStyle="color:red" globalOnly="true"/>
+
+            <h:form class="form-signin">
+                <h1 class="form-signin-heading">Create your Customer Account: </h1>
+
+
+                <h:panelGrid columns="3">
+                    <h:outputLabel class="form-control" for="usernameInput" value="Username"/>
+                    <h:inputText class="form-control" id="usernameInput" value="#{signUpController.username}" required="true" requiredMessage="Username required" /> 
+                    <h:message for="usernameInput" errorStyle="color:red" />
+                    <h:outputLabel class="form-control" for="passwordInput" value="Password"/>
+                    <h:inputSecret class="form-control" id="passwordInput" value="#{signUpController.password}" required="true" requiredMessage="Password required"/> 
+                    <h:message for="passwordInput" errorStyle="color:red"/>
+                    <h:outputLabel class="form-control" for="fname" value="First Name"/>
+                    <h:inputText class="form-control" id="fname" value="#{signUpController.customer.firstName}" required="true" requiredMessage="First Name required" /> 
+                    <h:message for="fname" errorStyle="color:red" />
+                    <h:outputLabel class="form-control" for="lname" value="Last Name"/>
+                    <h:inputText class="form-control" id="lname" value="#{signUpController.customer.lastName}" required="true" requiredMessage="Last Name required"/> 
+                    <h:message for="lname" errorStyle="color:red"/>  
+                    <h:outputLabel class="form-control" for="email" value="Email"/>
+                    <h:inputText class="form-control" id="email" value="#{signUpController.customer.email}" required="true" requiredMessage="Email required"/> 
+                    <h:message for="email" errorStyle="color:red"/>  
+                    <h:outputLabel class="form-control" for="phone" value="Phone"/>
+                    <h:inputText class="form-control" id="phone" value="#{signUpController.customer.phone}" required="true" requiredMessage="Phone required"/> 
+                    <h:message for="phone" errorStyle="color:red"/>  
+                    <h:outputLabel class="form-control" for="dob" value="Date Of Birth (mm/dd/yy)"/>
+                    <h:inputText class="form-control" id="dob" value="#{signUpController.customer.dateOfBirth}">
+                        <f:convertDateTime type="date" dateStyle="short"/>
+                    </h:inputText>
+                    <h:message for="dob"/> 
+                    <h:outputLabel class="form-control" for="line1" value="Line1"/>
+                    <h:inputText class="form-control" id="line1" value="#{signUpController.address.line1}" required="true" requiredMessage="Line 1 required"/> 
+                    <h:message for="line1" errorStyle="color:red"/>  
+                    <h:outputLabel class="form-control" for="line2" value="Line2"/>
+                    <h:inputText class="form-control" id="line2" value="#{signUpController.address.line2}"/> 
+                    <h:message for="line2"/>  
+                    <h:outputLabel class="form-control" for="city" value="City"/>
+                    <h:inputText class="form-control" id="city" value="#{signUpController.address.city}" required="true" requiredMessage="City required"/> 
+                    <h:message for="city" errorStyle="color:red"/>  
+                    <h:outputLabel class="form-control" for="state" value="State"/>
+                    <h:inputText class="form-control" id="state" value="#{signUpController.address.state}" required="true" requiredMessage="State required"/> 
+                    <h:message for="state" errorStyle="color:red"/>  
+                    <h:outputLabel class="form-control" for="country" value="Country"/>
+                    <h:inputText class="form-control" id="country" value="#{signUpController.address.country}" required="true" requiredMessage="Country required"/> 
+                    <h:message for="country" errorStyle="color:red"/>  
+                    <h:outputLabel class="form-control" for="zip" value="Zip"/>
+                    <h:inputText class="form-control" id="zip" value="#{signUpController.address.zip}" required="true" requiredMessage="Zip required"/> 
+                    <h:message for="zip" errorStyle="color:red"/>  
+
+                    <h:commandButton class="btn btn-lg btn-primary btn-block" value="Sign Up" action="#{signUpController.signUpCustomer()}">
+
+                    </h:commandButton>
+                    <h:link value="Cancel" outcome="login.jsf"/>
+
+                </h:panelGrid>
+
+            </h:form>
+        </h:panelGroup>
+        <script src="https://code.jquery.com/jquery.js"></script>        
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.1/js/bootstrap.min.js"></script>        
+
+    </h:body>
+</html>
+
+
+
+
+

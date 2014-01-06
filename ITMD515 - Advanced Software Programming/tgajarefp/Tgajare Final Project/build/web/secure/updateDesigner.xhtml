@@ -1,0 +1,40 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns:ui="http://java.sun.com/jsf/facelets"
+                template="./../layout.xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <ui:define name="title">
+        Profile Update for #{designerBean.findByUserName(loginController.remoteUser).firstName} #{designerBean.findByUserName(loginController.remoteUser).lastName}
+    </ui:define>
+
+    <ui:define name="content">
+
+        
+        <ui:fragment rendered="#{loginController.designer}">
+            <h:messages errorStyle="color:red" globalOnly="true"/>
+            <h:form class="form-signin" id="myForm">
+                <h:panelGrid columns="2">
+               
+                    <h:outputText value="First Name" />
+                    <h:inputText id="fn" value="#{updateDesignerController.designer.firstName}"  />
+                    
+                    <h:outputText value="Last Name" />
+                    <h:inputText id="ln" value="#{updateDesignerController.designer.lastName}" />
+
+                    <h:outputText value="Email" />
+                    <h:inputText id="email" value="#{updateDesignerController.designer.email}" />
+
+                    <h:outputText value="Brand" />
+                    <h:inputText id="brand" value="#{updateDesignerController.brand.name}" />
+                </h:panelGrid>
+
+                
+                <h:commandButton value="Save" action="#{updateDesignerController.saveChanges()}" />
+            </h:form>
+
+        </ui:fragment>
+    </ui:define>
+
+</ui:composition>

@@ -1,0 +1,62 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns:ui="http://java.sun.com/jsf/facelets"
+                template="./../layout.xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <ui:define name="title">
+        #{designerBean.findByUserName(loginController.remoteUser).brand.getName()} has following products:
+    </ui:define>
+
+    <ui:define name="content">
+
+
+        <ui:fragment rendered="#{loginController.designer}">
+
+            <h:messages errorStyle="color:red" globalOnly="true"/>
+            <h:form>
+                <h:dataTable class="table table-hover" value="#{designerBean.findByUserName(loginController.remoteUser).getBrand().products}" var="prod" binding="#{manageBrand.datatableProducts}">
+                    <h:column>
+                        <f:facet name="header">Product ID</f:facet>
+                        <h:outputText value="#{prod.id}"/>
+                    </h:column>
+
+                    <h:column>
+                        <f:facet name="header">Product Name</f:facet>
+                        <h:outputText value="#{prod.name}"/>
+                    </h:column>
+
+                    <h:column>
+                        <f:facet name="header">Product Description</f:facet>
+                        <h:outputText value="#{prod.description}"/>       
+                    </h:column>
+
+                    <h:column>
+                        <f:facet name="header">Product Price</f:facet>
+                        <h:outputText value="#{prod.price}"/>
+                    </h:column>
+                    
+                    <h:column>
+                        <f:facet name="header">Customer ID</f:facet>
+                        <h:outputText value="#{prod.customer.id}"/>
+                    </h:column>
+
+
+                    <h:column>
+                        <f:facet name="header">Action</f:facet>
+                        
+                        <h:commandLink value="Edit" action="/secure/updateProducts.jsf" actionListener="#{manageBrand.editProduct}"/>
+                        <h:inputHidden binding="#{manageBrand.delDataItemId}" />
+                        <h:commandLink value="Delete" action="/secure/brand.jsf" actionListener="#{manageBrand.deleteProduct}"/>
+                        <f:param name="index" value="#{manageBrand.datatableProducts.rowIndex}"/>
+                    </h:column>
+                </h:dataTable> 
+
+
+                <h:commandButton action="/secure/addProduct.jsf" value="Add New Product"/>
+            </h:form>
+        </ui:fragment>
+    </ui:define>
+
+</ui:composition>

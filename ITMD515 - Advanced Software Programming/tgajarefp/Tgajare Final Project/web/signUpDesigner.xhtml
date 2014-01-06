@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+    <h:head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="description" content=""/>
+        <meta name="author" content=""/>
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap.min.css"></link>
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.1/css/bootstrap-theme.min.css"></link>
+
+        <title>Sign-Up Designer Form</title>
+
+
+
+    </h:head>
+    <h:body>
+        <h:panelGroup layout="block" class="container" style="position:static;margin-left: 450px;">
+            <h:messages errorStyle="color:red" globalOnly="true"/>
+
+            <h:form class="form-signin">
+                <h1 class="form-signin-heading">Create your Designer Account:</h1>
+               
+                
+                <h:panelGrid columns="3">
+                    <h:outputLabel class="form-control" for="usernameInput" value="Username"/>
+                    <h:inputText class="form-control" id="usernameInput" value="#{signUpController.username}" required="true" requiredMessage="Username required" /> 
+                    <h:message for="usernameInput" errorStyle="color:red" />
+                    <h:outputLabel class="form-control" for="passwordInput" value="Password"/>
+                    <h:inputSecret class="form-control" id="passwordInput" value="#{signUpController.password}" required="true" requiredMessage="Password required"/> 
+                    <h:message for="passwordInput" errorStyle="color:red"/>
+                    <h:outputLabel class="form-control" for="fname" value="First Name"/>
+                    <h:inputText class="form-control" id="fname" value="#{signUpController.designer.firstName}" required="true" requiredMessage="First Name required" /> 
+                    <h:message for="fname" errorStyle="color:red" />
+                    <h:outputLabel class="form-control" for="lname" value="Last Name"/>
+                    <h:inputText class="form-control" id="lname" value="#{signUpController.designer.lastName}" required="true" requiredMessage="Last Name required"/> 
+                    <h:message for="lname" errorStyle="color:red"/>  
+                    <h:outputLabel class="form-control" for="email" value="Email"/>
+                    <h:inputText class="form-control" id="email" value="#{signUpController.designer.email}" required="true" requiredMessage="Email required"/> 
+                    <h:message for="email"/>
+                    <h:outputLabel class="form-control" for="brand" value="Brand"/>
+                    <h:inputText class="form-control" id="brand" value="#{signUpController.brand.name}" required="true" requiredMessage="Brand required"/> 
+                    <h:message for="brand" errorStyle="color:red"/>  
+                    <h:commandButton class="btn btn-lg btn-primary btn-block" value="Sign Up" action="#{signUpController.signUpDesigner()}">
+
+                    </h:commandButton>
+                    <h:link value="Cancel" outcome="login.jsf"/>
+                    
+                </h:panelGrid>
+
+            </h:form>
+        </h:panelGroup>
+        <script src="https://code.jquery.com/jquery.js"></script>        
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.1/js/bootstrap.min.js"></script>        
+
+    </h:body>
+</html>
+
+
+

@@ -1,0 +1,48 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Login Page</title>
+       
+        <style>
+            body
+            {
+                background-color: thistle; 
+
+            }
+            div{
+                
+                text-align: center;
+            }
+            #button{
+                
+                margin-left: 500px; 
+            }
+            h2{
+                
+                text-align: center;
+                font:"Strait";
+            }
+        </style>
+    </head>
+    <body>
+        <h2>Please Login</h2>
+        <form method="post" action="j_security_check">
+            <fieldset>
+                <div>
+                    <label for="j_username">Username:</label>
+                    <input type="text" name="j_username" />
+                </div>
+                <div>
+                    <label for="j_password">Password:</label>
+                    <input type="password" name="j_password" />
+                </div>
+                <input id="button" type="submit" value="Submit"/>
+                <input type="reset" value="Reset"/>
+            </fieldset>
+        </form>
+    </body>
+</html>

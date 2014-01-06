@@ -1,0 +1,50 @@
+/* 
+    Document   : MP3_css
+    Created on : Nov 4, 2013, 8:55:04 PM
+    Author     : Tejal
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body
+{
+background-color: thistle; 
+
+}
+
+h5{
+    
+    text-align: right; 
+}
+
+h3{
+    
+    text-align: center;
+}
+
+h4{
+    
+    text-align: end; 
+}
+
+table{
+    
+        width: auto;
+	float: left;
+	font-family: 'Calibri', sans-serif;
+	font-size:15px;
+	padding: 8px;
+	text-align:center;
+        border-top: 1px solid #FF6347;
+}
+
+td {
+    
+        background-color: cadetblue;
+	padding: 7px;
+	border-bottom: 1px solid black;
+}

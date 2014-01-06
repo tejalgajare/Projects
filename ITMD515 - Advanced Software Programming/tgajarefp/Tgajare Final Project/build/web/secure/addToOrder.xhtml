@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns:ui="http://java.sun.com/jsf/facelets"
+                template="./../layout.xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <ui:define name="title">
+        Adding selected product to a new Order:
+    </ui:define>
+
+    <ui:define name="content">
+
+
+        <ui:fragment rendered="#{loginController.customer}">
+            <h:messages errorStyle="color:red" globalOnly="true"/>
+            <h:form class="form-signin" id="addorder">
+                <h:panelGrid columns="3">
+                    <!--h:outputLabel class="form-control" for="ID" value="Prod ID"/>
+                    <h:outputText class="form-control" id="ID" value="{manageOrder.product.id}"/> 
+                    <h:outputLabel class="form-control" for="name" value="Prod Name"/>
+                    <h:outputText class="form-control" id="name" value="{manageOrder.product.name}"/> 
+                    <h:outputLabel class="form-control" for="desc" value="Prod Desc"/>
+                    <h:outputText class="form-control" id="desc" value="{manageOrder.product.description}"/> 
+                    <h:outputLabel class="form-control" for="price" value="Prod Price"/>
+                    <h:outputText class="form-control" id="price" value="{manageOrder.product.price}"/> 
+                    <h:outputLabel class="form-control" for="brand" value="Prod Brand"/>
+                    <h:outputText class="form-control" id="brand" value="{manageOrder.product.brand.name}"/--> 
+                    <h:outputLabel class="form-control" for="quantity" value="Quantity"/>
+                    <h:inputText class="form-control" id="quantity" value="#{manageOrder.order.quantity}" required="true" requiredMessage="Quantity required" /> 
+                    <h:message for="quantity" errorStyle="color:red" />
+                </h:panelGrid>
+
+                <h:inputHidden binding="#{manageOrder.dataItemID}" />
+                <h:commandButton value="Save" action="#{manageOrder.saveChanges()}" />
+            </h:form>
+
+        </ui:fragment>
+    </ui:define>
+
+</ui:composition>

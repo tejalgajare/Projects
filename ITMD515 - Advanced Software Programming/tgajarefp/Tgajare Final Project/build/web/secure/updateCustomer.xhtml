@@ -1,0 +1,64 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns:ui="http://java.sun.com/jsf/facelets"
+                template="./../layout.xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <ui:define name="title">
+        Profile Update for #{customerBean.findByUserName(loginController.remoteUser).firstName} #{customerBean.findByUserName(loginController.remoteUser).lastName}
+    </ui:define>
+
+    <ui:define name="content">
+
+        
+        <ui:fragment rendered="#{loginController.customer}">
+            <h:messages errorStyle="color:red" globalOnly="true"/>
+            <h:form class="form-signin" id="myForm">
+                <h:panelGrid columns="2">
+               
+                    <h:outputText value="First Name" />
+                    <h:inputText id="fn" value="#{updateCustomerController.customer.firstName}"  />
+                    
+                    <h:outputText value="Last Name" />
+                    <h:inputText id="ln" value="#{updateCustomerController.customer.lastName}" />
+
+                    <h:outputText value="Email" />
+                    <h:inputText id="email" value="#{updateCustomerController.customer.email}" />
+
+                     <h:outputText value="Date of Birth" />
+                     <h:inputText id="dob" value="#{updateCustomerController.customer.dateOfBirth}" >
+                         <f:convertDateTime type="date" dateStyle="short"/>
+                     </h:inputText>
+
+                     <h:outputText value="Phone" />
+                     <h:inputText id="phone" value="#{updateCustomerController.customer.phone}" />
+
+                     <h:outputText value="Line 1" />
+                     <h:inputText id="line1" value="#{updateCustomerController.customer.address.line1}" />
+
+                     <h:outputText value="Line 2" />
+                     <h:inputText id="line2" value="#{updateCustomerController.customer.address.line2}" />
+
+                     <h:outputText value="City" />
+                     <h:inputText id="city" value="#{updateCustomerController.customer.address.city}" />
+
+                     <h:outputText value="State" />
+                     <h:inputText id="state" value="#{updateCustomerController.customer.address.state}" />
+
+                     <h:outputText value="Zip" />
+                     <h:inputText id="zip" value="#{updateCustomerController.customer.address.zip}" />
+
+                     <h:outputText value="Country" />
+                     <h:inputText id="country" value="#{updateCustomerController.customer.address.country}" />
+
+                </h:panelGrid>
+
+                
+                <h:commandButton value="Save" action="#{updateCustomerController.saveChanges()}" />
+            </h:form>
+
+        </ui:fragment>
+    </ui:define>
+
+</ui:composition>

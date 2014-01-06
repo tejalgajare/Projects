@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE composition PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<ui:composition xmlns:ui="http://java.sun.com/jsf/facelets"
+                template="./../layout.xhtml"
+                xmlns:h="http://xmlns.jcp.org/jsf/html"
+                xmlns:f="http://xmlns.jcp.org/jsf/core">
+
+    <ui:define name="title">
+        Welcome, #{designerBean.findByUserName(loginController.remoteUser).firstName} #{designerBean.findByUserName(loginController.remoteUser).lastName}
+    </ui:define>
+
+    <ui:define name="content">
+
+
+        <ui:fragment rendered="#{loginController.designer}">
+
+            <h:outputText value="Brand owned is: "/>
+            <strong>
+                <h:outputText value="#{designerBean.findByUserName(loginController.remoteUser).getBrand().name}"/>
+            </strong>  
+            <h:dataTable class="table table-hover" value="#{designerBean.findByUserName(loginController.remoteUser).getBrand().products}" var="prod">
+                <h:column>
+                    <f:facet name="header">Product ID</f:facet>
+                    <h:outputText value="#{prod.id}"/>
+                </h:column>
+
+                <h:column>
+                    <f:facet name="header">Product Name</f:facet>
+                    <h:outputText value="#{prod.name}"/>
+                </h:column>
+
+                <h:column>
+                    <f:facet name="header">Product Description</f:facet>
+                    <h:outputText value="#{prod.description}"/>       
+                </h:column>
+
+                <h:column>
+                    <f:facet name="header">Product Price</f:facet>
+                    <h:outputText value="#{prod.price}"/>
+                </h:column>
+
+                <h:column>
+                    <f:facet name="header">Order Details</f:facet>
+                    <h:dataTable value="#{prod.orders}" var="order">
+                        <h:column>
+                            <f:facet name="header">Order ID</f:facet>
+                            <h:outputText value="#{order.id}"/>
+                        </h:column>
+                        <h:column>
+                            <f:facet name="header">Order Date</f:facet>
+                            <h:outputText value="#{order.getOrderDate()}">
+                                <f:convertDateTime type="date" dateStyle="short"/> 
+                            </h:outputText>
+                        </h:column>
+                        <h:column>
+                            <f:facet name="header">Order Time</f:facet>
+                            <h:outputText value="#{order.getOrderTime()}">
+                                <f:convertDateTime type="time"/> 
+                            </h:outputText>
+                        </h:column>
+                        <h:column>
+                            <f:facet name="header">Quantity</f:facet>
+                            <h:outputText value="#{order.getQuantity()}"/>
+                        </h:column>
+                    </h:dataTable>
+                </h:column>
+                <h:column>
+                    <f:facet name="header">Total Sale</f:facet>
+                    <h:outputText value="#{prod.calculateTotalSale()}"/>
+                </h:column>
+            </h:dataTable> 
+
+        </ui:fragment>
+    </ui:define>
+
+</ui:composition>
